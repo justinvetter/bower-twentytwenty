@@ -20,5 +20,9 @@
     "test",
     "tests",
     "**/*.html"
-  ]
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.0"
+  },
+  "version": "1.0.0"
 }
