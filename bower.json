@@ -1,0 +1,23 @@
+{
+  "name": "bower-twentytwenty",
+  "homepage": "https://github.com/justinvetter/twentytwenty",
+  "authors": [
+    "Justin Vetter <justin.vetter@digitalglobe.com>"
+  ],
+  "description": "Zurb TwentyTwenty",
+  "main": [
+    "js/jquery.twentytwenty.js",
+    "js/jquery.event.move.js",
+    "scss/foundation.scss",
+    "scss/twentytwenty.scss"
+  ],
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
