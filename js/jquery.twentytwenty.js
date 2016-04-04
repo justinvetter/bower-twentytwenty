@@ -46,6 +46,7 @@
           beforeImg.css("clip", "rect(0,"+offset.cw+","+offset.h+",0)");
     	}
         container.css("height", offset.h);
+        $('.twentytwenty-overlay').css("width", offset.w);
       };
 
       var adjustSlider = function(pct) {
