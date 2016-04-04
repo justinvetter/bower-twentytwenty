@@ -5,13 +5,13 @@
     "Justin Vetter <justin.vetter@digitalglobe.com>"
   ],
   "description": "Zurb TwentyTwenty",
+  "moduleType": "globals",
   "main": [
     "js/jquery.twentytwenty.js",
     "js/jquery.event.move.js",
     "scss/foundation.scss",
     "scss/twentytwenty.scss"
   ],
-  "moduleType": [],
   "license": "MIT",
   "ignore": [
     "**/.*",
