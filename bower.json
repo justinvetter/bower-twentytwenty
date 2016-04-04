@@ -18,14 +18,7 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests",
-    "**/*.html",
-    "Gemfile",
-    "Gemfile.lock"
-    "config.rb",
-    "README.md",
-    "img",
-    "css"
+    "tests"
   ],
   "dependencies": {
     "jquery": ">= 1.9.0"
