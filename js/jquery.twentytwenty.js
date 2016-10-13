@@ -35,6 +35,7 @@
         return {
           w: w+"px",
           h: h+"px",
+          ratio: (h/w)*100,
           cw: (dimensionPct*w)+"px",
           ch: (dimensionPct*h)+"px"
         };
@@ -47,7 +48,7 @@
       	else {
           beforeImg.css("clip", "rect(0,"+offset.cw+","+offset.h+",0)");
     	}
-        container.css("height", offset.h);
+        container.css("padding-bottom", offset.ratio+"%");
         $('.twentytwenty-overlay').css("width", offset.w);
       };
 
