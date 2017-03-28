@@ -1,0 +1,33 @@
+{
+  "name": "bower-twentytwenty",
+  "homepage": "https://github.com/justinvetter/twentytwenty",
+  "authors": [
+    "Justin Vetter <justin.vetter@digitalglobe.com>"
+  ],
+  "description": "Zurb TwentyTwenty",
+  "moduleType": "globals",
+  "main": [
+    "js/jquery.twentytwenty.js",
+    "css/twentytwenty.css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "scss",
+    "index.html",
+    "img",
+    "Gemfile",
+    "Gemfile.lock",
+    "config.rb",
+    ".gitignore"
+  ],
+  "dependencies": {
+    "jquery": "2.2.0",
+    "jquery.event.move": ">=1.3.6"
+  },
+  "version": "1.0.6"
+}
